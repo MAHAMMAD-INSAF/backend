@@ -1,9 +1,10 @@
 {
   "name": "backendd",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
     "url": "https://github.com/MAHAMMAD-INSAF/backend/issues"
   },
   "homepage": "https://github.com/MAHAMMAD-INSAF/backend#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
