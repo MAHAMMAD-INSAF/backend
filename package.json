@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAHAMMAD-INSAF/backend.git"
+  },
+  "author": "mahammad Insaf",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/MAHAMMAD-INSAF/backend/issues"
+  },
+  "homepage": "https://github.com/MAHAMMAD-INSAF/backend#readme",
+  "description": ""
 }
